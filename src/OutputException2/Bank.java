@@ -13,7 +13,7 @@ public class Bank {
                     throw new AgeException1("Неверное значение");
                 }
             } catch (Exception e) {
-                throw new AgeException("Возраст не может быть меньше значения: 0");
+                throw new AgeException("Возраст не может быть меньше значения:0");
             }
         } catch (Exception e) {
             e.printStackTrace();
