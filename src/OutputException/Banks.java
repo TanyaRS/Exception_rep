@@ -10,7 +10,6 @@ public class Banks {
                        throw new AgeException2("Ошибка");
                 } catch (AgeException2 e) {
                     System.out.println("Неверное значение(Возраст не может быть меньше 0)");
-
                 }
 
             }
